@@ -7,7 +7,7 @@ body {
 header {
   background: url('/images/309.png') no-repeat center center;
   background-size: cover;
-  color: #1e1e1e;
+  color: #ffffff;
   text-align: center;
   padding: 50px 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
@@ -72,8 +72,8 @@ header h1 {
 
 img {
   float: left;
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
   margin-right: 20px;
   border-radius: 50%;
   object-fit: cover;
