@@ -33,3 +33,13 @@ main p {
   font-size: 0.9rem;
   color: #6c757d;
 }
+
+img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-right: 15px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+}
