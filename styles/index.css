@@ -124,7 +124,6 @@ header p {
   text-decoration: underline;
 }
 
-  .main-section {
-    grid-template-columns: 1fr;
-  }
+.main-section {
+  grid-template-columns: 1fr;
 }
