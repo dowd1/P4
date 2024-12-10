@@ -1,43 +1,68 @@
+/* John Dowd, IS117-005, Fall 2024 */
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
 header {
-  background-color: #343a40;
-  color: white;
-  padding: 20px 0;
+  background: url('/images/contact-banner.png') no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
 }
 
 header h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
   margin: 0;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .form-container {
-  background-color: #f8f9fa;
+  background-color: #2b2b2b;
   padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  max-width: 600px;
 }
 
 .form-container h2 {
   font-size: 1.8rem;
-  color: #343a40;
   margin-bottom: 20px;
 }
 
-.form-container .form-control {
-  border: 1px solid #ced4da;
+.form-container .form-label {
+  font-size: 1rem;
 }
 
-.form-container .btn-primary {
+.form-container .form-control {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #444444;
+}
+
+.form-container .form-control:focus {
+  background-color: #444444;
+  border-color: #666666;
+  box-shadow: none;
+}
+
+.form-container .btn {
   background-color: #007bff;
-  border-color: #007bff;
-  font-size: 1rem;
-  padding: 10px 20px;
+  border: none;
+}
+
+.form-container .btn:hover {
+  background-color: #0056b3;
 }
 
 .footer {
-  background-color: #f8f9fa;
-  padding: 15px 0;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px 0;
   text-align: center;
   font-size: 0.9rem;
-  color: #6c757d;
 }
