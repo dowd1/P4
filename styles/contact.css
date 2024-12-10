@@ -5,6 +5,44 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.navbar {
+  background-color: #333333;
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+  font-weight: bold;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #00b4d8 !important;
+}
+
+.navbar .navbar-brand {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+}
+
+.navbar .dropdown-menu {
+  background-color: #444444;
+  border: none;
+}
+
+.navbar .dropdown-item {
+  color: #ffffff !important;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #00b4d8 !important;
+  color: #ffffff !important;
+}
+
 header {
   background: url('../images/309.png') no-repeat center center;
   background-size: cover;
