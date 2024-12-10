@@ -70,12 +70,12 @@ section {
 
 section img {
   float: left;
-  width: 200px;
-  height: 200px;
+  width: auto;
+  height: auto;
   margin-right: 20px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid yellow;
+  border: 3px solid blue;
 }
 
 section h2 {
