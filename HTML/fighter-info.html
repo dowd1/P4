@@ -1,25 +1,25 @@
-<!--John Dowd, IS117-005, Fall 2024-->
+<!-- John Dowd, IS117-005, Fall 2024 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles/fighter-info.css">
   <title>Fighter Info</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/fighter-info.css">
 </head>
 <body>
-  <nav class="navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="index.html">UFC 309</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">More Info</a>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More Info</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="general-info.html">General Info</a></li>
               <li><a class="dropdown-item" href="fighter-info.html">Fighter Info</a></li>
@@ -31,41 +31,52 @@
       </div>
     </div>
   </nav>
-
-  <header>
-    <h1>Fighter Information</h1>
+  <header class="text-center text-white py-5 bg-dark">
+    <div class="container">
+      <h1 class="display-4">Fighter Information</h1>
+    </div>
   </header>
-
-  <main class="container">
-    <section>
-      <img src="../images/jones.png" alt="Jon Jones">
-      <h2>Jon Jones - Undisputed UFC Heavyweight Champion</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <main class="container my-5">
+    <section class="row mb-5">
+      <div class="col-md-4 text-center">
+        <img src="../images/jones.png" alt="Jon Jones" class="img-fluid rounded mb-3">
+      </div>
+      <div class="col-md-8">
+        <h2>Jon Jones - Undisputed UFC Heavyweight Champion</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </section>
-
-    <section>
-      <img src="../images/stipe.png" alt="Stipe Miocic">
-      <h2>Stipe Miocic - #8 Ranked UFC Heavyweight Contender</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <section class="row mb-5">
+      <div class="col-md-4 text-center">
+        <img src="../images/stipe.png" alt="Stipe Miocic" class="img-fluid rounded mb-3">
+      </div>
+      <div class="col-md-8">
+        <h2>Stipe Miocic - #8 Ranked UFC Heavyweight Contender</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </section>
-
-    <section>
-      <img src="../images/oliveira.png" alt="Charles Oliveira">
-      <h2>Charles Oliveira - #2 Ranked UFC Lightweight Contender</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <section class="row mb-5">
+      <div class="col-md-4 text-center">
+        <img src="../images/oliveira.png" alt="Charles Oliveira" class="img-fluid rounded mb-3">
+      </div>
+      <div class="col-md-8">
+        <h2>Charles Oliveira - #2 Ranked UFC Lightweight Contender</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </section>
-
-    <sectiom>
-      <img src="../images/chandler.png" alt="Michael Chandler">
-      <h2>Michael Chandler - #7 Ranked UFC Lightweight Contender</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <section class="row mb-5">
+      <div class="col-md-4 text-center">
+        <img src="../images/chandler.png" alt="Michael Chandler" class="img-fluid rounded mb-3">
+      </div>
+      <div class="col-md-8">
+        <h2>Michael Chandler - #7 Ranked UFC Lightweight Contender</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </section>
   </main>
-
-  <footer class="footer">
+  <footer class="bg-dark text-white text-center py-3">
     <p>&copy; December 2024, John Dowd, New Jersey Institute of Technology, Newark, NJ 07104</p>
   </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
