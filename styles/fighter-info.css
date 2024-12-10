@@ -1,11 +1,11 @@
 body {
-  background-color: #1e1e1e;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #1e1e1e;
   font-family: Arial, sans-serif;
 }
 
 header {
-  background: url('/images/fighter-banner.png') no-repeat center center;
+  background: url('/images/309.png') no-repeat center center;
   background-size: cover;
   color: #ffffff;
   text-align: center;
@@ -19,29 +19,74 @@ header h1 {
   margin: 0;
 }
 
-.fighter-section {
-  background-color: #2b2b2b;
+.navbar {
+  background-color: #333333;
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+  font-weight: bold;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #00b4d8 !important;
+}
+
+.navbar .navbar-brand {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+}
+
+.navbar .dropdown-menu {
+  background-color: #444444;
+  border: none;
+}
+
+.navbar .dropdown-item {
+  color: #ffffff !important;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #00b4d8 !important;
+  color: #ffffff !important;
+}
+
+section {
+  background-color: #f8f9fa;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: flex-start;
 }
 
-.fighter-section img {
-  display: block;
-  max-width: 100%;
-  margin-bottom: 15px;
-  border-radius: 10px;
+section img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid yellow;
 }
 
-.fighter-section h2 {
+section h2 {
   font-size: 1.8rem;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  color: #1e1e1e;
 }
 
-.fighter-section p {
+section p {
   font-size: 1.1rem;
   line-height: 1.6;
+  color: #333333;
 }
 
 .footer {
